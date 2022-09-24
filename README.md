@@ -11,4 +11,4 @@
 - Navigate inside directory and run `pip install .` to compile.
 
 ### Example
-See `test evaluation metrics.ipynb` for examples and installation.
+- See `test evaluation metrics.ipynb` for examples and installation.
