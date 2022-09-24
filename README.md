@@ -5,7 +5,7 @@
 - l-gan MMD COV 1-NN (CD/EMD) and JSD
 - Original Author: https://github.com/stevenygd/PointFlow/tree/master/metrics/pytorch_structural_losses
 - EMD (distance and assignment)
-- Original Author: https://github.com/stevenygd/PointFlow/tree/master/metrics/pytorch_structural_losses
+- Original Author: https://github.com/Colin97/MSN-Point-Cloud-Completion
 
 ### Compile
 - Navigate inside directory and run `pip install .` to compile.
