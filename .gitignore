@@ -128,6 +128,11 @@ dmypy.json
 # Pyre type checker
 .pyre/
 build/
-pybind/
 .vscode/
-pytorch-emd/.vscode/
+
+# Temporary notebook-generated test files
+notebooks/*_test.py
+notebooks/*_test_packages.py
+notebooks/01_test_packages.py
+
+.documentations/

@@ -30,7 +30,6 @@ except:
     def distChamferCUDA(x, y):
         return distChamfer(x, y)
 
-
 def emd_approx(x, y):
     bs, npts, mpts, dim = x.size(0), x.size(1), y.size(1), x.size(2)
     assert npts == mpts, "EMD only works if two point clouds are equal size"

@@ -1,12 +1,13 @@
-from setuptools import setup, find_packages
+from setuptools import setup
 from torch.utils.cpp_extension import BuildExtension, CUDAExtension
 
 setup(
-    name='emd',
+    name='msn_emd',
+    version='0.0.0',
     packages=['emd_wrapper'],
     package_dir={'emd_wrapper': './src/emd_wrapper'},
     ext_modules=[
-        CUDAExtension('emd_cuda', [
+        CUDAExtension('msn_emd_cuda', [
             'src/emd/emd.cpp',
             'src/emd/emd_cuda.cu',
         ]),
