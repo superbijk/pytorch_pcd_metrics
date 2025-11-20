@@ -135,4 +135,5 @@ notebooks/*_test.py
 notebooks/*_test_packages.py
 notebooks/01_test_packages.py
 
+# Internal documentation (not for public repository)
 .documentations/
